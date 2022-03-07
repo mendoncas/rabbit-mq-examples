@@ -7,3 +7,4 @@ Will send a log string to an exchange called "logs".
 This exchange is defined as a "fanout" type. A fanout exchange will broadcast its messages to every queue subscribed to it.
 
 # Receiver
+Binds its temporary queue to the "logs" exchange and consumes from it
